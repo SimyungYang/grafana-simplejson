@@ -1,0 +1,82 @@
+{
+	"main_2XX": {
+		"frequency": 3,
+		"pattern": [{
+			"duration": 200,
+			"min": 85,
+			"max": 95
+		}, {
+			"duration": 10,
+			"min": 75,
+			"max": 80
+		}, {
+			"duration": 100,
+			"min": 85,
+			"max": 95
+		}, {
+			"duration": 10,
+			"min": 80,
+			"max": 85
+		}]
+	},
+	"main_3XX": {
+		"frequency": 3,
+		"pattern": [{
+			"duration": 200,
+			"min": 5,
+			"max": 10
+		}, {
+			"duration": 10,
+			"min": 5,
+			"max": 10
+		}, {
+			"duration": 100,
+			"min": 5,
+			"max": 10
+		}, {
+			"duration": 10,
+			"min": 5,
+			"max": 10
+		}]
+	},
+	"main_4XX": {
+		"frequency": 3,
+		"pattern": [{
+			"duration": 200,
+			"min": 0,
+			"max": 5
+		}, {
+			"duration": 10,
+			"min": 0,
+			"max": 5
+		}, {
+			"duration": 100,
+			"min": 5,
+			"max": 5
+		}, {
+			"duration": 10,
+			"min": 0,
+			"max": 5
+		}]
+	},
+	"main_5XX": {
+		"frequency": 3,
+		"pattern": [{
+			"duration": 200,
+			"min": 0,
+			"max": 5
+		}, {
+			"duration": 10,
+			"min": 10,
+			"max": 15
+		}, {
+			"duration": 100,
+			"min": 0,
+			"max": 5
+		}, {
+			"duration": 10,
+			"min": 8,
+			"max": 10
+		}]
+	}
+}
